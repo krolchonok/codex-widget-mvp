@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/widgetRoot"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#F5F7FA"
+  android:clickable="true"
+  android:focusable="true"
+  android:gravity="center_vertical"
+  android:orientation="vertical"
+  android:padding="8dp">
+
+  <ProgressBar
+    android:id="@+id/widgetPrimaryProgress"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    android:indeterminate="false"
+    android:max="100"
+    android:progress="0"
+    android:padding="0dp"
+    android:progressDrawable="@drawable/widget_progress_primary" />
+
+  <TextView
+    android:id="@+id/widgetPrimaryCaption"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:gravity="center"
+    android:textColor="#475569"
+    android:textSize="10sp"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:text="Primary limit" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="8dp"
+    android:background="#E2E8F0"
+    android:text="" />
+
+  <ProgressBar
+    android:id="@+id/widgetSecondaryProgress"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    android:layout_marginTop="8dp"
+    android:indeterminate="false"
+    android:max="100"
+    android:progress="0"
+    android:padding="0dp"
+    android:progressDrawable="@drawable/widget_progress_secondary" />
+
+  <TextView
+    android:id="@+id/widgetSecondaryCaption"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:gravity="center"
+    android:textColor="#475569"
+    android:textSize="10sp"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:text="Secondary limit" />
+
+  <TextView
+    android:id="@+id/widgetUpdated"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:gravity="center"
+    android:textColor="#64748B"
+    android:textSize="10sp"
+    android:maxLines="1"
+    android:ellipsize="end" />
+</LinearLayout>

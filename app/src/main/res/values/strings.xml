@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Codex Widget MVP</string>
+  <string name="title_main">Codex Usage Widget</string>
+  <string name="subtitle_main">Управляйте refresh токена, лимитами и виджетом из одного экрана без ручной возни.</string>
+  <string name="section_auth">Credentials</string>
+  <string name="section_auth_subtitle">Вставьте полный auth.json от Codex. Приложение само обновит access token и сохранит всё локально.</string>
+  <string name="section_actions">Quick Actions</string>
+  <string name="section_status">Status</string>
+  <string name="hint_auth_json">{ "tokens": { ... } }</string>
+  <string name="action_paste">Paste</string>
+  <string name="action_load_saved">Load Saved</string>
+  <string name="action_save">Save</string>
+  <string name="action_paste_refresh">Paste and Refresh</string>
+  <string name="action_refresh">Refresh now</string>
+  <string name="action_pin_widget">Create Widget</string>
+  <string name="widget_title">Codex usage</string>
+  <string name="widget_placeholder_subtitle">No data yet</string>
+  <string name="summary_no_auth">No auth.json saved</string>
+  <string name="summary_auth_ready">Auth loaded and encrypted</string>
+  <string name="summary_field_lazy_load">Поле не заполняется автоматически при запуске. Для подстановки используйте Load Saved или Paste.</string>
+  <string name="toast_widget_pinned">Widget pin request sent</string>
+  <string name="toast_widget_pin_not_supported">Launcher does not support widget pinning</string>
+</resources>

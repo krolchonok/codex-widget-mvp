@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="screen_bg">#F5F1EA</color>
+  <color name="card_primary">#123B52</color>
+  <color name="card_primary_stroke">#2C5A72</color>
+  <color name="card_surface">#FFFDF8</color>
+  <color name="card_stroke">#D8CBBB</color>
+  <color name="text_primary">#1A1F24</color>
+  <color name="text_secondary">#39424C</color>
+  <color name="text_muted">#6E7781</color>
+  <color name="hero_text">#F8FAFC</color>
+  <color name="hero_subtext">#D7E5EE</color>
+  <color name="chip_bg">#E3EDF5</color>
+  <color name="chip_text">#123B52</color>
+  <color name="input_bg">#FAF7F2</color>
+  <color name="input_stroke">#C6B9AA</color>
+  <color name="button_primary_bg">#D0682B</color>
+  <color name="button_primary_text">#FFF8F1</color>
+  <color name="button_secondary_bg">#234A62</color>
+  <color name="button_secondary_text">#F8FAFC</color>
+</resources>
