@@ -36,13 +36,16 @@ jobs:
 
       - name: Publish rolling release
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: latest
-          name: Latest Build
-          prerelease: true
-          make_latest: false
-          generate_release_notes: false
-          body: |
-            Rolling build from `main`.
-          files: app/build/outputs/apk/debug/app-debug.apk
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view latest >/dev/null 2>&1; then
+            gh release upload latest app/build/outputs/apk/debug/app-debug.apk --clobber
+            gh release edit latest --title "Latest Build" --notes "Rolling build from \`main\`." --prerelease
+          else
+            gh release create latest app/build/outputs/apk/debug/app-debug.apk \
+              --title "Latest Build" \
+              --notes "Rolling build from \`main\`." \
+              --prerelease \
+              --target main
+          fi
