@@ -13,7 +13,7 @@
 
 Как запустить:
 
-1. Откройте каталог [android-widget-mvp](/home/krol/ushagent/android-widget-mvp) в Android Studio.
+1. Откройте этот репозиторий в Android Studio.
 2. Дождитесь Gradle sync.
 3. Запустите приложение на устройстве.
 4. Вставьте полный `auth.json` в поле ввода.
