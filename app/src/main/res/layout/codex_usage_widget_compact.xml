@@ -3,7 +3,7 @@
   android:id="@+id/widgetRoot"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="#F5F7FA"
+  android:background="@color/widget_bg"
   android:clickable="true"
   android:focusable="true"
   android:gravity="center_vertical"
@@ -27,7 +27,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="4dp"
     android:gravity="center"
-    android:textColor="#475569"
+    android:textColor="@color/widget_text_primary"
     android:textSize="10sp"
     android:maxLines="1"
     android:ellipsize="end"
@@ -37,7 +37,7 @@
     android:layout_width="match_parent"
     android:layout_height="1dp"
     android:layout_marginTop="8dp"
-    android:background="#E2E8F0"
+    android:background="@color/widget_divider"
     android:text="" />
 
   <ProgressBar
@@ -58,7 +58,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="4dp"
     android:gravity="center"
-    android:textColor="#475569"
+    android:textColor="@color/widget_text_primary"
     android:textSize="10sp"
     android:maxLines="1"
     android:ellipsize="end"
@@ -70,7 +70,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
     android:gravity="center"
-    android:textColor="#64748B"
+    android:textColor="@color/widget_text_secondary"
     android:textSize="10sp"
     android:maxLines="1"
     android:ellipsize="end" />

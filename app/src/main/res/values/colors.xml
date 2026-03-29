@@ -18,4 +18,11 @@
   <color name="button_primary_text">#FFF8F1</color>
   <color name="button_secondary_bg">#234A62</color>
   <color name="button_secondary_text">#F8FAFC</color>
+  <color name="widget_bg">#F5F7FA</color>
+  <color name="widget_text_primary">#475569</color>
+  <color name="widget_text_secondary">#64748B</color>
+  <color name="widget_divider">#E2E8F0</color>
+  <color name="widget_progress_track">#D7DFEA</color>
+  <color name="widget_progress_primary">#2563EB</color>
+  <color name="widget_progress_secondary">#0F766E</color>
 </resources>
